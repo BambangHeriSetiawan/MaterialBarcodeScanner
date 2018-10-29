@@ -1,5 +1,7 @@
 package com.edwardvanraak.materialbarcodescanner;
 
+import static org.junit.Assert.assertNotNull;
+
 import android.app.Dialog;
 import android.hardware.Camera;
 import android.os.Bundle;
@@ -23,7 +25,6 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.io.IOException;
 
-import static junit.framework.Assert.assertNotNull;
 
 public class MaterialBarcodeScannerActivity extends AppCompatActivity {
 
